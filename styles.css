@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text-box {
+    max-width: 500px;
+}
+
+.intro {
+    color: teal;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #373b3e;
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.desc {
+    font-family: Arial, sans-serif;
+    color: #555;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #e12885;
+}
+
+.btn {
+    display: inline-block;
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.profile-img {
+    width: 300px;
+    border-radius: 10px;
+}
