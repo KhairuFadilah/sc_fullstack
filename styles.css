@@ -49,7 +49,21 @@ h1 {
     font-family: Arial, sans-serif;
 }
 
+.btn:hover {
+    background-color: #00796b;
+    color: #ffe082;
+}
+
+.btn:active {
+    background-color: #004d40;
+    color: #fff;
+}
+
 .profile-img {
     width: 300px;
     border-radius: 10px;
+}
+.profile-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
